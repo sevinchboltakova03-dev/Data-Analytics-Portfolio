@@ -1,36 +1,44 @@
+# Data Analytics Portfolio
 
+Hi, I'm Sevinch 👋
 
-# Hi, I'm Sevinch 👋
+Welcome to my Data Analytics portfolio. I am a Junior Data Analyst with a background in English language teaching and a strong interest in transforming data into meaningful insights.
 
-## Junior Data Analyst
-
-I am an aspiring Data Analyst with a background in English language teaching and a strong interest in data analytics. I enjoy transforming raw data into meaningful insights and creating dashboards that support data-driven decisions.
+Through my experience in education, I developed strong analytical thinking, problem-solving, and communication skills. Now I apply these skills to data analysis by working with Excel, SQL, Python, and Power BI to explore data, build dashboards, and solve real-world business problems.
 
 ## 🛠 Skills & Tools
 
 - Microsoft Excel (Pivot Tables, Pivot Charts, Dashboard Design, Data Cleaning)
 - SQL (PostgreSQL, Data Analysis, Queries)
 - Python (Pandas, NumPy, Matplotlib)
-- Power BI (Data Visualization, KPI Dashboards)
-- Data Cleaning & Data Visualization
+- Power BI (Dashboards, KPI Tracking, Data Visualization)
 
-## 📊 Portfolio Projects
+## 📊 Projects
 
-### 1. Superstore Sales Analysis Dashboard (Excel)
+| Project | Tools | Status |
+|---------|-------|--------|
+| [Superstore Sales Analysis Dashboard](Excel/Sales-Analysis) | Excel, Pivot Tables, Pivot Charts | ✅ Completed |
+| HR Analytics Dashboard | Power BI | 📅 Planned |
+| Customer Churn Analysis | SQL, Python | 📅 Planned |
+| Netflix Data Analysis | Python | 📅 Planned |
 
-**Tools:** Excel, Pivot Tables, Pivot Charts
+## 📌 About This Portfolio
 
-- Analyzed sales performance using Superstore dataset
-- Created interactive dashboard with KPIs
-- Identified sales trends, regional performance, and category insights
+This repository showcases my hands-on data analytics projects, where I apply analytical techniques to solve business problems.
 
-🔗 Project: [Sales Analysis Dashboard](Excel/Sales-Analysis)
+Each project includes:
+
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Business insights
+- Project documentation
 
 ## 🎯 Career Goal
 
-My goal is to grow as a Data Analyst and use data to solve real-world business problems.
+My goal is to grow as a Data Analyst, continuously improve my technical skills, and use data-driven approaches to support better business decisions.
 
 ## 📫 Contact
 
 LinkedIn: Coming soon  
-Email: sevinchboltakova03@gmail.com
+Email: Coming soon
