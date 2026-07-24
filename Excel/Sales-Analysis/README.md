@@ -1,6 +1,6 @@
 # 📊 Superstore Sales Analysis
 
-![Superstore Sales Dashboard](dashboard.png)
+![Sales Dashboard](Screenshots/dashboard.png)
 
 ## Overview
 
