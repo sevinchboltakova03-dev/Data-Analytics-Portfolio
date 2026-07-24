@@ -24,7 +24,7 @@ I am an aspiring Data Analyst with a background in English language teaching and
 - Created interactive dashboard with KPIs
 - Identified sales trends, regional performance, and category insights
 
-🔗 Project: Excel/Sales-Analysis
+🔗 Project: [Sales Analysis Dashboard](Excel/Sales-Analysis)
 
 ## 🎯 Career Goal
 
