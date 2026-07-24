@@ -1,4 +1,11 @@
 # 📊 Superstore Sales Analysis
+## Excel File
+
+You can download the complete Excel dashboard here:
+
+[Download Excel Dashboard](Superstore_Sales_Dashboard.xlsx)
+
+## Dashboard Preview
 
 ![Sales Dashboard](Screenshots/dashboard.png)
 
