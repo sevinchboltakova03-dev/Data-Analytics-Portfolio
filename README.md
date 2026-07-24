@@ -1,32 +1,36 @@
 # Data Analytics Portfolio
 
-Hi, I'm Sevinch!
+# Hi, I'm Sevinch 👋
 
-Welcome to my Data Analytics portfolio. This repository showcases my hands-on projects in data analysis, where I apply analytical thinking to solve real-world business problems.
+## Junior Data Analyst
 
-## Skills
+I am an aspiring Data Analyst with a background in English language teaching and a strong interest in data analytics. I enjoy transforming raw data into meaningful insights and creating dashboards that support data-driven decisions.
 
-- Microsoft Excel
-- SQL
+## 🛠 Skills & Tools
+
+- Microsoft Excel (Pivot Tables, Pivot Charts, Dashboard Design, Data Cleaning)
+- SQL (PostgreSQL, Data Analysis, Queries)
 - Python (Pandas, NumPy, Matplotlib)
-- Power BI
+- Power BI (Data Visualization, KPI Dashboards)
+- Data Cleaning & Data Visualization
 
-## Projects
+## 📊 Portfolio Projects
 
-| Project | Tools | Status |
-|---------|-------|--------|
-| Sales Analysis | Excel, SQL, Python, Power BI | 🚧 In Progress |
-| HR Analytics Dashboard | Power BI | 📅 Planned |
-| Customer Churn Analysis | SQL, Python | 📅 Planned |
-| Netflix Data Analysis | Python | 📅 Planned |
+### 1. Superstore Sales Analysis Dashboard (Excel)
 
-## About This Portfolio
+**Tools:** Excel, Pivot Tables, Pivot Charts
 
-Each project includes:
-- Data cleaning
-- Exploratory Data Analysis (EDA)
-- Data visualization
-- Business insights
-- Documentation
+- Analyzed sales performance using Superstore dataset
+- Created interactive dashboard with KPIs
+- Identified sales trends, regional performance, and category insights
 
-Thank you for visiting my portfolio!
+🔗 Project: Excel/Sales-Analysis
+
+## 🎯 Career Goal
+
+My goal is to grow as a Data Analyst and use data to solve real-world business problems.
+
+## 📫 Contact
+
+LinkedIn: Coming soon  
+Email: sevinchboltakova03@gmail.com
