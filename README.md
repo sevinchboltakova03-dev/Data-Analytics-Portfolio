@@ -41,4 +41,4 @@ My goal is to grow as a Data Analyst, continuously improve my technical skills, 
 ## 📫 Contact
 
 LinkedIn: Coming soon  
-Email: Coming soon
+Email: sevinchboltakova03@gmail.com
