@@ -1,4 +1,4 @@
-# Data Analytics Portfolio
+# Data Analytic's Portfolio
 
 # Hi, I'm Sevinch 👋
 
