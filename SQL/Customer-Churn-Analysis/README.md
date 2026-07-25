@@ -110,16 +110,16 @@ The company should investigate possible reasons behind higher churn among Fiber 
 
 ## Project Structure
 
----
+```text
 Customer-Churn-Analysis
 │
 ├── README.md
 ├── customer_churn_analysis.sql
 └── screenshots
-├── churn_by_contract.png
-├── churn_by_payment.png
-└── churn_by_internet.png
-
+    ├── churn_by_contract.png
+    ├── churn_by_payment.png
+    └── churn_by_internet.png
+```
 ---
 
 ## Conclusion
