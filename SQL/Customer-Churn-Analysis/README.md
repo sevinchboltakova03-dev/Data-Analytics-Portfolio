@@ -129,6 +129,21 @@ Customer-Churn-Analysis
 
 ---
 
+## Query Results
+
+### Churn Rate by Contract
+
+![Churn by Contract](screenshots/churn_by_contract.png)
+
+### Churn Rate by Payment Method
+
+![Churn by Payment Method](screenshots/churn_by_payment.png)
+
+### Churn Rate by Internet Service
+
+![Churn by Internet Service](screenshots/churn_by_internet.png)
+
+---
 ## Conclusion
 
 This project demonstrates how SQL can be used to analyze customer behaviour, identify churn patterns, and generate actionable business insights.
