@@ -30,6 +30,7 @@ The goal is to explore customer behavior, calculate churn rates, and discover fa
 - JOIN operations
 
 ## Project Structure
+
 Customer-Churn-Analysis
 │
 ├── README.md
