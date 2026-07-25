@@ -2,45 +2,112 @@
 
 ## Project Overview
 
-This project analyzes customer churn data using SQL to identify patterns behind customer retention and cancellations.
+This project analyzes customer churn data to identify factors that influence customer retention and customer loss.
 
-The goal is to explore customer behavior, calculate churn rates, and discover factors that may influence customer decisions.
+The goal of this analysis is to understand:
+- How many customers have left the company
+- Which customer groups have higher churn rates
+- What factors may contribute to customer churn
+
+## Dataset
+
+**Dataset:** Telco Customer Churn Dataset
+
+The dataset contains customer information including:
+- Customer demographics
+- Services used
+- Contract types
+- Payment methods
+- Monthly charges
+- Churn status
 
 ## Tools Used
 
-- SQL
 - PostgreSQL
+- SQL
+- GitHub
 
 ## Analysis Performed
 
-- Total number of customers
-- Churn rate calculation
-- Customer distribution by churn status
-- Analysis of customer segments
-- Identification of churn patterns
+- Data exploration
+- Data quality checks
+- Customer churn analysis
+- Churn rate analysis by:
+  - Contract type
+  - Payment method
+  - Internet service
 
-## Key SQL Concepts Used
+## Key Insights
 
-- SELECT statements
-- Filtering with WHERE
-- Aggregations (COUNT, AVG, SUM)
-- GROUP BY
-- ORDER BY
-- CASE statements
-- JOIN operations
+- Customers with month-to-month contracts have the highest churn rate.
+- Electronic check users show higher churn compared to automatic payment users.
+- Fiber optic customers have a higher churn rate compared to other internet service groups.
 
 ## Project Structure
+
 
 Customer-Churn-Analysis
 │
 ├── README.md
-└── churn_analysis.sql
+├── customer_churn_analysis.sql
+└── screenshots
 
 
-## Business Insights
+# Customer Churn Analysis (SQL)
 
-The analysis helps understand customer behavior and provides insights that can support better retention strategies.
+## Project Overview
 
-## Author
+This project analyzes customer churn data to identify factors that influence customer retention and customer loss.
 
-Sevinch — Junior Data Analyst
+The goal of this analysis is to understand:
+- How many customers have left the company
+- Which customer groups have higher churn rates
+- What factors may contribute to customer churn
+
+## Dataset
+
+**Dataset:** Telco Customer Churn Dataset
+
+The dataset contains customer information including:
+- Customer demographics
+- Services used
+- Contract types
+- Payment methods
+- Monthly charges
+- Churn status
+
+## Tools Used
+
+- PostgreSQL
+- SQL
+- GitHub
+
+## Analysis Performed
+
+- Data exploration
+- Data quality checks
+- Customer churn analysis
+- Churn rate analysis by:
+  - Contract type
+  - Payment method
+  - Internet service
+
+## Key Insights
+
+- Customers with month-to-month contracts have the highest churn rate.
+- Electronic check users show higher churn compared to automatic payment users.
+- Fiber optic customers have a higher churn rate compared to other internet service groups.
+
+## Project Structure
+
+
+Customer-Churn-Analysis
+│
+├── README.md
+├── customer_churn_analysis.sql
+└── screenshots
+
+
+## Conclusion
+This project demonstrates how SQL can be used to analyze customer behavior, identify churn patterns, and generate business insights.
+
