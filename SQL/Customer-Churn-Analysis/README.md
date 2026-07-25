@@ -44,11 +44,13 @@ The dataset contains customer information including:
 - Fiber optic customers have a higher churn rate compared to other internet service groups.
 
 ## Project Structure
+```
 Customer-Churn-Analysis
 │
 ├── README.md
 ├── customer_churn_analysis.sql
 └── screenshots
+```
 
 ## Conclusion
 
