@@ -1,6 +1,10 @@
+-- =====================================
 -- Customer Churn Analysis
 -- SQL Portfolio Project
 -- Tool: PostgreSQL
+-- Dataset: Telco Customer Churn Dataset
+-- Purpose: Identify factors influencing customer churn
+-- =====================================
 
 
 -- =====================================
@@ -28,6 +32,7 @@ GROUP BY customerid
 HAVING COUNT(*) > 1;
 
 
+
 -- =====================================
 -- 2. Overall Churn Analysis
 -- =====================================
@@ -39,6 +44,7 @@ SELECT
     COUNT(*) AS customers
 FROM customers
 GROUP BY churn;
+
 
 
 -- =====================================
@@ -56,6 +62,9 @@ SELECT
 FROM customers
 GROUP BY contract
 ORDER BY churn_rate DESC;
+
+
+
 -- =====================================
 -- 4. Churn Analysis by Payment Method
 -- =====================================
@@ -71,6 +80,9 @@ SELECT
 FROM customers
 GROUP BY paymentmethod
 ORDER BY churn_rate DESC;
+
+
+
 -- =====================================
 -- 5. Churn Analysis by Internet Service
 -- =====================================
@@ -86,6 +98,9 @@ SELECT
 FROM customers
 GROUP BY internetservice
 ORDER BY churn_rate DESC;
+
+
+
 -- =====================================
 -- 6. Churn Analysis by Senior Citizen
 -- =====================================
@@ -101,6 +116,9 @@ SELECT
 FROM customers
 GROUP BY seniorcitizen
 ORDER BY churn_rate DESC;
+
+
+
 -- =====================================
 -- 7. Churn Analysis by Tenure
 -- =====================================
@@ -112,15 +130,22 @@ SELECT
         WHEN tenure <= 48 THEN '2-4 Years'
         ELSE '4+ Years'
     END AS tenure_group,
+
     COUNT(*) AS total_customers,
+
     SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) AS churned_customers,
+
     ROUND(
         SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*),
         2
     ) AS churn_rate
+
 FROM customers
 GROUP BY tenure_group
 ORDER BY churn_rate DESC;
+
+
+
 -- =====================================
 -- 8. Average Monthly Charges by Churn
 -- =====================================
@@ -131,6 +156,9 @@ SELECT
     ROUND(AVG(monthlycharges),2) AS avg_monthly_charges
 FROM customers
 GROUP BY churn;
+
+
+
 -- =====================================
 -- 9. Churn Analysis by Tech Support
 -- =====================================
@@ -138,14 +166,20 @@ GROUP BY churn;
 SELECT
     techsupport,
     COUNT(*) AS total_customers,
+
     SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) AS churned_customers,
+
     ROUND(
         SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*),
         2
     ) AS churn_rate
+
 FROM customers
 GROUP BY techsupport
 ORDER BY churn_rate DESC;
+
+
+
 -- =====================================
 -- 10. Churn Analysis by Gender
 -- =====================================
@@ -153,13 +187,20 @@ ORDER BY churn_rate DESC;
 SELECT
     gender,
     COUNT(*) AS total_customers,
+
     SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) AS churned_customers,
+
     ROUND(
         SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*),
         2
     ) AS churn_rate
+
 FROM customers
-GROUP BY gender;
+GROUP BY gender
+ORDER BY churn_rate DESC;
+
+
+
 -- =====================================
 -- 11. High Risk Customer Profile
 -- =====================================
@@ -168,30 +209,18 @@ SELECT
     contract,
     paymentmethod,
     internetservice,
+
     COUNT(*) AS customers,
+
     SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) AS churned_customers
+
 FROM customers
+
 GROUP BY 
     contract,
     paymentmethod,
     internetservice
-ORDER BY churned_customers DESC
-LIMIT 10;
--- =====================================
--- 11. High Risk Customer Profile
--- =====================================
 
-SELECT
-    contract,
-    paymentmethod,
-    internetservice,
-    COUNT(*) AS customers,
-    SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) AS churned_customers
-FROM customers
-GROUP BY 
-    contract,
-    paymentmethod,
-    internetservice
 ORDER BY churned_customers DESC
-LIMIT 10;
 
+LIMIT 10;
