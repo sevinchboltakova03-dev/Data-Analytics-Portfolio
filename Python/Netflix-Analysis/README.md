@@ -4,7 +4,7 @@
 
 This project analyzes Netflix content data using Python.
 
-The goal of this project is to explore Netflix's content strategy, identify trends, and generate business insights through data analysis and visualization.
+The goal of this project is to explore Netflix's content strategy, identify content trends, and generate business insights through data analysis and visualization.
 
 ---
 
@@ -21,7 +21,7 @@ The goal of this project is to explore Netflix's content strategy, identify tren
 
 ## Dataset
 
-Dataset: Netflix Titles Dataset
+**Dataset:** Netflix Titles Dataset
 
 The dataset contains information about Netflix movies and TV shows, including:
 
@@ -33,7 +33,7 @@ The dataset contains information about Netflix movies and TV shows, including:
 - Genre
 - Duration
 
-Dataset size:
+**Dataset size:**
 
 - 8,807 rows
 - 12 columns
@@ -42,56 +42,65 @@ Dataset size:
 
 ## Data Cleaning
 
-The following steps were performed:
+The following data preparation steps were performed:
 
-- Checked dataset structure
-- Handled missing values
-- Filled missing categorical values with "Unknown"
+- Checked dataset structure and data types
+- Analyzed missing values
+- Filled missing categorical values with `"Unknown"`
 - Checked duplicate records
+- Prepared data for exploratory analysis
 
 ---
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis (EDA)
 
 The analysis explored:
 
 - Movies vs TV Shows distribution
 - Top content-producing countries
-- Content release trends over years
+- Netflix content release trends over years
 - Popular genres
 - Rating distribution
 
 ---
 
-## Key Insights
+## Key Business Insights
 
-- Movies represent around 69.6% of Netflix content.
-- The United States produces the largest amount of Netflix content.
-- Netflix content growth increased significantly between 2016 and 2020.
-- International Movies and Dramas are the most common genres.
-- TV-MA is the most common rating category.
+- Movies represent approximately **69.6%** of Netflix's content catalog.
+- The **United States** is the largest content producer on Netflix, followed by India and the United Kingdom.
+- Netflix content production increased significantly between **2016 and 2020**, with 2018 having the highest number of releases.
+- **International Movies** and **Dramas** are the most common genres on the platform.
+- **TV-MA** is the most common rating category, showing Netflix's focus on mature audiences.
 
 ---
 
 ## Visualizations
 
-### Movies vs TV Shows
+### Movies vs TV Shows Distribution
 
-![Movie TV Distribution](images/movie_tv_distribution.png)
+![Movies vs TV Shows](images/movie_tv_distribution.png)
 
-### Top Countries
+---
+
+### Top Countries by Netflix Content
 
 ![Top Countries](images/top_countries.png)
 
-### Content Release Trend
+---
+
+### Netflix Content Release Trend
 
 ![Release Trend](images/content_release_trend.png)
 
-### Top Genres
+---
+
+### Top Netflix Genres
 
 ![Top Genres](images/top_genres.png)
 
-### Top Ratings
+---
+
+### Top Netflix Ratings
 
 ![Top Ratings](images/top_ratings.png)
 
@@ -99,7 +108,11 @@ The analysis explored:
 
 ## Conclusion
 
-This project demonstrates how Python can be used for data cleaning, exploratory analysis, and visualization.
+This project demonstrates how Python can be used for:
 
-The insights from this analysis help understand Netflix content strategy and audience preferences.
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Generating business insights
 
+The findings provide insights into Netflix's content strategy, global production trends, and audience preferences.
