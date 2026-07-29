@@ -14,6 +14,7 @@ Turning data into actionable business insights.
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 </div>
+
 ---
 
 # 👩‍💻 About Me
